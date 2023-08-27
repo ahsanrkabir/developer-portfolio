@@ -111,11 +111,37 @@ nav a {
 }
 
 /* main section styles */
+main {
+    max-width: 1200px;
+    margin: 120px auto;
+}
 
 /* about section styles */
 .about {
     border-radius: 5px;
-    background-color: #72D3FE;
+    background-color: #9BEDFF;
     padding: 130px 150px;
-    margin: 130px 230px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
