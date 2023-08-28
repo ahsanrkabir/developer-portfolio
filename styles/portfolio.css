@@ -229,3 +229,49 @@ main section {
     margin-top: 50px;
     text-align: center;
 }
+
+/* footer styles */
+footer {
+    display: flex;
+    gap: 100px;
+    background-color: #C4F4FE;
+    padding: 130px 230px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.footer-message {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.footer-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+    color: #757575;
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    width: 70%;
+    font-size: 16px;
+}
