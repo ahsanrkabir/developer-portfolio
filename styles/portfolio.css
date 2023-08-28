@@ -65,11 +65,11 @@ nav a {
 
 /* header styles */
 .header {
-    background-color: #a5c7d6;
-    background-image: url("../images/header-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background-color: #a3dff8;
+    background-image: url('../images/header-bg.jpg'), url('../images/developer.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, left center;
+    background-size: cover, 80px;
 }
 
 .banner {
